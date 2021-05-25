@@ -39,7 +39,7 @@ body
 .right button
 {
 	color: black;
-	background-color: cyan;
+	background-color: aquamarine;
 	width: 200px;
 	height: 40px;
 	font-size: 20px;
@@ -50,7 +50,7 @@ body
 
 .right h1
 {
-	color: cyan;
+	color: aquamarine;
 	font-size: 150px;
 	font-family: 'Bebas Neue', cursive;
 	letter-spacing: 5px;
