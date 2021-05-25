@@ -1,0 +1,100 @@
+body
+{
+	background-color: black;
+}
+
+.outer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 90vh;
+	flex-wrap: wrap;
+}
+
+.left
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width:50%;
+	align-items: center;
+}
+
+.left img
+{
+	width: 80%;
+}
+
+.right
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width:50%;
+	align-items: center;
+	text-align: center;
+}
+
+.right button
+{
+	color: black;
+	background-color: cyan;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	border: none;
+	transition: linear 0.6s;
+	font-family: 'Roboto', sans-serif; 
+}
+
+.right h1
+{
+	color: cyan;
+	font-size: 150px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 5px;
+}
+
+.right p
+{
+	display: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding: 50px;
+	border: 2px solid white;
+}
+
+.right button:hover
+{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.right button:focus
+{
+	outline: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .left
+  {
+  	width:100%;
+  }
+  .right
+  {
+  	width:100%;
+  }
+  .right h1
+  {
+  	font-size: 100px;
+  }
+  .outer
+  {
+  	height: auto;
+  }
+
+}
